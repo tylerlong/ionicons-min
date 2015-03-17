@@ -10,4 +10,4 @@ def update():
     local('rm {0}.zip'.format(latest_version))
     # local('rm katex/README.md')
     # local('mv katex/* .')
-    local('rm -rf ionicons-{0}}'.format(latest_version[1:]))
+    local('rm -rf ionicons-{0}'.format(latest_version[1:]))
